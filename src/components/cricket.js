@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Parttwo() {
+function Cricket() {
   return (
     <div className='Parttwo'> 
-        <p className='title'>FIXTURES & RESULTS</p>
+        <p className='title'>FIXTURES & RESULTS (Cricket Game)</p>
         <div>
         </div>
         <div className='titles'>
@@ -109,4 +109,4 @@ function Parttwo() {
   )
 }
 
-export default Parttwo
+export default Cricket

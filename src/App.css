@@ -47,12 +47,97 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  flex: 1;
   /* border: 2px solid red; */
+}
+.listitem{
+  margin-bottom:5px;
+  width: 100%;
+  display: flex;
 }
 
 #football{
-  background-color: rgba(143, 142, 142, 0.251);
+  background: rgb(21, 21, 21);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding-left:2px;
 }
+
+#basketball{
+  background: rgb(21, 21, 21);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding-left:2px;
+}
+#rugby{
+  background: rgb(21, 21, 21);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding-left:2px;
+}
+#nfl{
+  background: rgb(21, 21, 21);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding-left:2px;
+}
+#criket{
+  background: rgb(21, 21, 21);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding-left:2px;
+}
+#tennis{
+  background: rgb(21, 21, 21);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding-left:2px;
+}
+
+
+#hockey{
+  background: rgb(21, 21, 21);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding-left:2px;
+}
+
+
 
 .listitem{
   /* border: 1px solid red; */
@@ -155,3 +240,4 @@
 #score{
   color: grey;
 }
+
