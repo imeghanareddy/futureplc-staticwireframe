@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vh;
+  /* border: 2px solid black; */
+}
+
+.Headerclass{
+  display: flex;
+  border-bottom:2px solid grey;
+  height: 5rem;
+  justify-content: space-between;
+  
+}
+.logo{
+  flex: 0.6;
+}
+.menu{
+  flex: 0.4;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.Bodyclass{
+  display: flex;
+  /* border: 2px solid yellow; */
+  /* flex-direction: row; */
+  height: calc(100vh - 5rem);
+  flex: 1;
+}
+
+.Partclass{
+  display: flex;
+  /* border: 2px solid green; */
+  height: 25rem;
+  flex: 0.4;
+  justify-content: flex-start;
+  
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* border: 2px solid red; */
+}
+
+#football{
+  background-color: rgba(143, 142, 142, 0.251);
+}
+
+.listitem{
+  /* border: 1px solid red; */
+  height: 2rem;
+  padding: 1px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Parttwo{
+  flex: 0.6;
+  height: 90vh;
+  border-left: 2px solid rgb(5, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: scroll;
+  /* align-items: flex-start; */
+}
+
+.title{
+  display: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-weight: 700;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  margin-left: .5rem;
+  padding-left:0.3rem ;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+
+}
+.date{
+  display: flex;
+  font-weight: 700;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  margin-left: .5rem;
+  background-color: rgba(145, 145, 145, 0.402);
+  padding: 1rem;
+  flex: 1;
+}
+.comp{
+  display: flex;
+  font-weight: 700;
+  background-color: rgba(176, 176, 176, 0.128);
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  margin-left: .5rem;
+  padding: 1rem;
+  flex: 1;
+  
+}
+
+.titles{
+  
+}
+
+.stage{
+  display: flex;
+  font-weight: 700;
+  /* background-color: rgba(199, 198, 198, 0.194); */
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-left: .5rem;
+  /* padding-left: 25rem; */
+  flex: 1;
+}
+
+.teaminfo{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+  margin-left: 8px;
+
+}
+.datefield{
+  flex: 0.4;
+  padding: 1rem;
+  color: rgba(100, 99, 99, 0.664);
+}
+.playerinfo{
+  flex: 0.6;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.nameinfo{
+  display: flex;
+  justify-content: space-around;
+}
+#name{
+  font-weight: 600;
+}
+
+#score{
+  color: grey;
+}
